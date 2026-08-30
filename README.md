@@ -1,18 +1,18 @@
 # Accuracy Improvement Challenge in College Admission Prediction Model
 
-## 📌 Project Overview
+##  Project Overview
 This project focuses on improving the performance of a baseline college admission prediction model developed during a class case study. The baseline Logistic Regression model was evaluated first, followed by experimentation with feature engineering and feature scaling techniques to identify an approach that could improve predictive accuracy.
 
 The project emphasizes a comparative approach, where the baseline model and different improvement attempts are evaluated to determine the most effective technique.
 
 ---
 
-## 🎯 Objective
+##  Objective
 The objective of this project is to improve the accuracy of the existing college admission prediction model by applying feature engineering, feature scaling, and model optimization techniques, while comparing the results against the original baseline model.
 
 ---
 
-## 🛠 Tools & Technologies
+##  Tools & Technologies
 - **Python**
 - **Jupyter Notebook**
 - **Pandas** – Data manipulation and preprocessing
@@ -31,7 +31,7 @@ The objective of this project is to improve the accuracy of the existing college
 
 ---
 
-## 📂 Dataset
+##  Dataset
 The project uses the **same college admission dataset used in the class case study**, as required for the accuracy improvement challenge.
 
 The dataset contains academic and institutional features used to predict whether a student is admitted.
@@ -50,7 +50,7 @@ The target variable represents a binary classification problem:
 
 ---
 
-## 🔄 Project Workflow
+##  Project Workflow
 
 ```text
 Class Case Study Dataset
@@ -78,7 +78,7 @@ Interpret Results
 
 ---
 
-## 📊 Baseline Model
+##  Baseline Model
 The original class case study was used as the starting point for the project. A Logistic Regression model was trained using the original features and evaluated using a train-test split.
 
 **Baseline Accuracy: 66.25%**
@@ -87,7 +87,7 @@ This baseline serves as the reference point against which all improvement attemp
 
 ---
 
-## 🔧 Improvement Attempt 1 – Feature Engineering
+##  Improvement Attempt 1 – Feature Engineering
 A new interaction feature called `GRE_GPA` was created:
 
 ```text
@@ -108,7 +108,7 @@ The engineered interaction feature did not provide additional useful predictive 
 
 ---
 
-## ⚙️ Improvement Attempt 2 – Feature Scaling
+##  Improvement Attempt 2 – Feature Scaling
 Feature scaling was then applied using `StandardScaler` before training Logistic Regression. Scaling was performed to bring the numerical input features to a comparable scale and allow the Logistic Regression algorithm to optimize its parameters more effectively.
 
 **Result**
@@ -119,7 +119,7 @@ This was higher than the baseline accuracy of 66.25%.
 
 ---
 
-## 📈 Model Comparison
+##  Model Comparison
 
 | Approach | Accuracy |
 |---|---|
@@ -131,7 +131,7 @@ The comparison shows that feature engineering alone reduced the model's performa
 
 ---
 
-## 📊 Accuracy Improvement
+##  Accuracy Improvement
 The percentage improvement was calculated relative to the baseline model:
 
 ```text
@@ -147,7 +147,7 @@ Therefore, the final model achieved an approximate **1.89% improvement** in accu
 
 ---
 
-## 🔍 Key Insights
+##  Key Insights
 - The baseline Logistic Regression model achieved an accuracy of 66.25%.
 - The engineered `GRE_GPA` interaction feature reduced accuracy to 63.75%, indicating that the additional feature did not improve predictive performance.
 - Feature scaling using StandardScaler improved the Logistic Regression model's accuracy to 67.50%.
@@ -157,14 +157,14 @@ Therefore, the final model achieved an approximate **1.89% improvement** in accu
 
 ---
 
-## 💼 Practical Implications
+##  Practical Implications
 An admission prediction model can be used as a decision-support tool to help institutions estimate admission outcomes based on academic indicators such as GRE score, GPA, and university rank.
 
 A model with improved predictive performance can assist in screening applications more efficiently and support data-driven admission analysis. However, predictions should be considered as an additional analytical input rather than a replacement for institutional admission policies and human judgment.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 Accuracy-Improvement-Challenge-in-College-Admission-Prediction-Model/
 │
 ├── College_admission_Prediction.ipynb
@@ -173,7 +173,7 @@ Accuracy-Improvement-Challenge-in-College-Admission-Prediction-Model/
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 1. Clone the repository
 ```bash
@@ -196,13 +196,13 @@ Accuracy-Improvement-Challenge-in-College-Admission-Prediction-Model/
 
 ---
 
-## ✅ Project Outcome
+##  Project Outcome
 The project successfully compared the original baseline admission prediction model with multiple improvement attempts. Although the feature-engineering approach decreased accuracy, feature scaling improved Logistic Regression performance from 66.25% to 67.50%, resulting in a 1.89% relative improvement over the baseline.
 
 The project demonstrates the importance of experimentation, preprocessing, and quantitative comparison when improving machine learning model performance.
 
 ---
 
-## 👤 Author
+##  Author
 **Om Hunagund**
 GitHub: [github.com/omhunagund](https://github.com/omhunagund)
