@@ -164,12 +164,14 @@ A model with improved predictive performance can assist in screening application
 
 ---
 
-##  Project Structure
+## Project Structure
+
+```text
 Accuracy-Improvement-Challenge-in-College-Admission-Prediction-Model/
 │
 ├── College_admission_Prediction.ipynb
-├── README.md
-└── college_admission.csv
+├── college_admission.csv
+└── README.md
 
 ---
 
